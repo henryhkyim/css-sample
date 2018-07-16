@@ -1,1 +1,1 @@
-# myresume demostrating how to use css
+# html css sample
