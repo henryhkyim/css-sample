@@ -10,6 +10,8 @@ ul {
   background: #66F;
   list-style-type: none;
   overflow: hidden;
+  position: sticky;
+  top: 0;
   margin: 0;
   padding: 0;
 }
