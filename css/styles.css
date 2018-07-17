@@ -1,12 +1,79 @@
+/* Blue color code from dark to light
+ * #00B2FF
+ * #4DC9FF
+ * #80D9FF
+ * #B3E8FF
+ */
+
 body {
-  font-family: Calibri;
-  background: lightblue;
+  font-family: 'Open Sans', sans-serif;
+  background: #B3E8FF;
+  padding: 10px;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
 }
 
 h1 {
-  color: darkblue;
+  font-size: 80px;
 }
 
 h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+a {
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+header img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+header p {
+  clear: both;
+}
+
+header, footer {
+  background: #00B2FF;
+  color: #B3E8FF;
+  margin: 0;
+}
+
+header h1, header h2 {
   color: blue;
+}
+
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+.work {
+  background: #4DC9FF;
+}
+
+.education {
+  background: #80D9FF;
 }
