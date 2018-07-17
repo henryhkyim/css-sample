@@ -5,6 +5,10 @@
  * #B3E8FF
  */
 
+main {
+  clear: both;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background: #B3E8FF;
@@ -39,17 +43,19 @@ a:hover {
   max-width: 950px;
   margin: 0 auto;
   padding: 50px;
+  overflow: auto;
 }
 
-header img {
+.profile-img {
+  width: 300px;
+  border-radius: 50%;
   float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 30px;
 }
 
-header p {
+/*header p {
   clear: both;
-}
+}*/
 
 header, footer {
   background: #00B2FF;
@@ -59,6 +65,7 @@ header, footer {
 
 header h1, header h2 {
   color: blue;
+  margin: 0;
 }
 
 footer {
