@@ -5,6 +5,13 @@
  * #B3E8FF
  */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 main {
   clear: both;
 }
@@ -47,10 +54,18 @@ a:hover {
 }
 
 .profile-img {
-  width: 300px;
   border-radius: 50%;
+}
+.col-narrow {
+  width: 30%;
   float: left;
-  margin-right: 30px;
+  min-height: 175px;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
 }
 
 /*header p {
